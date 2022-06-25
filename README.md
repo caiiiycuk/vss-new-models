@@ -1,18 +1,15 @@
-# Fullscreen game addon
+# Vangers New Models
 [![Node.js CI](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml/badge.svg)](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml)
 
-This repository contains addon for Vangers that makes game use fullscreen map mode
-by default.
-
-**This repository also is a template repository**, so you can make you own repository
-from it. Its useful if you want to develop your own addon.
+This repository contains addon for Vangers that adds hi-poly models
 
 ## Project structure
 
 `src` folder contains source code of addon:
 * **main.ts** - is a standard loader from vangers repository, you should not change it
 * **vss.ts** - is a `vss` module provided by game. This API you should use to interact with game
-* **vss-fullscreen-game.ts** - is a addon it self
+* **vss-new-models.ts** - is a addon it self
+* **build/assets** - this files are used instead of original game files
 
 **NOTE:** `main.ts` and `vss.ts` are same for all addons and taken from [vangers repository](https://github.com/vangers-app/vangers-android-cpp/tree/vandroid/scripting/src).
 **Keep them up to date.**
@@ -31,8 +28,7 @@ yarn.
 
 ## How to publish
 
-If you used this repository as template, then you have configured action that will
-publish builded addon into releases page on github. To do a release you need to create a
+To do a release you need to create a
 tag and push it to github.
 
 ```

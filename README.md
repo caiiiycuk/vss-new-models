@@ -1,7 +1,9 @@
 # Vangers New Models
 [![Node.js CI](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml/badge.svg)](https://github.com/vangers-app/vss-fullscreen-game/actions/workflows/release.yml)
 
-This repository contains addon for Vangers that adds hi-poly models
+This repository contains addon for Vangers that adds hi-poly models:
+
+[Based on JT mod](https://github.com/vangers-app/vss-new-models/tree/main/build/assets)
 
 ## Project structure
 
